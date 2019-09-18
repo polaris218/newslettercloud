@@ -1,0 +1,40 @@
+// .card-title {
+//   &--drafts {
+//     min-height: 44px;
+//   }
+// }
+
+.blog-item {
+  padding-top: 6px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e5e9ec;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__heading {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+}
+
+.social-item {
+  padding: 6px 0px;
+  border-bottom: 1px solid #e5e9ec;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .icon-sm-width {
+    width: 18px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+.logout-table .card{
+  min-height: 100%;
+}

@@ -1,0 +1,33 @@
+@baseUrl = https://api.getanewsletter.com/v3
+@jwt = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnX2lhdCI6MTUzNzQzMjE1NSwidXNlcl9pZCI6MzY4NjksImV4cCI6MTUzODAzNjk1NX0.p3jErmygj9rHVV5-njobJcYDvkTb2_U1CZyO13KECcM
+
+### Get pending review mails
+GET {{baseUrl}}/mails/pending_review/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### Get stopped mails
+GET {{baseUrl}}/mails/stopped/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### Get draft mails
+GET {{baseUrl}}/mails/drafts/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### Get scheduled mails
+GET {{baseUrl}}/mails/scheduled/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### Get sent mails
+GET {{baseUrl}}/mails/sent/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+
+### Get responders
+GET {{baseUrl}}/mails/responders/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}

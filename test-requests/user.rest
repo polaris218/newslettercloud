@@ -1,0 +1,19 @@
+@baseUrl = https://api.getanewsletter.com/v3
+@jwt = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnX2lhdCI6MTUzMzA0MTAxNCwidXNlcl9pZCI6MzY4NjksImV4cCI6MTUzMzY0NTgxNH0.rt44FmUf0fcbK5nq0_iea7gMMr7EW4kEbgUwfAApfoo
+
+### Authenticate
+POST {{baseUrl}}/api-token-auth/ HTTP/1.1
+Accept: application/json, text/plain, */*
+Content-Type: application/json;charset=UTF-8
+
+{"username":"","password":""}
+
+### Get User
+GET {{baseUrl}}/user/
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### Get Profile
+GET {{baseUrl}}/profile/
+content-type: application/json
+Cookie: jwt={{jwt}}

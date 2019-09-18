@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.custom-boxed-checkbox {
+  border: 1px solid #ced4da;
+  height: 35px;
+  padding-top: 6px;
+  border-radius: 2px;
+
+  label {
+    margin: 0 10px;
+  }
+}

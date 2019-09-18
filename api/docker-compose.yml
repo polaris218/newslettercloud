@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+  database:
+    environment:
+      POSTGRES_DB: gan_db
+    image: postgres:11.2
+    ports:
+      - 127.0.0.1:5432:5432/tcp
+    restart: always
+    volumes:
+      - pg_data:/var/lib/postgresql/data:rw
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - 127.0.0.1:1025:1025/tcp
+      - 127.0.0.1:8025:8025/tcp
+  redis:
+    image: redis:5.0.4
+    ports:
+      - 127.0.0.1:6379:6379/tcp
+    restart: always
+    volumes:
+      - redis_data:/data:rw
+volumes:
+  pg_data: {}
+  redis_data: {}

@@ -1,0 +1,33 @@
+.chart-legend {
+  margin: 0;
+  padding: 0;
+    @media (max-width: 992px) {
+      padding-bottom: 1rem;
+    }
+
+  .chart-legend-item {
+    margin: 0.6rem 0;
+
+    > div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    p {
+      margin-bottom: .1rem;
+      padding: 0;
+      line-height: 1rem;
+
+      span:first-of-type {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .chart-legend-item-color {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+  }
+}

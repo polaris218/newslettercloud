@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.modal {
+  background-color: rgba(0,0,0,.7);
+  overflow-y: auto;
+
+  &-header {
+    background: $gray-100;
+  }
+
+  &-header,
+  &-footer {
+    padding: 1.4rem 2rem;
+  }
+
+  &-content {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+}

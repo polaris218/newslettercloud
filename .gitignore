@@ -1,0 +1,31 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.test.local
+.env.production
+.eslintrc.default
+.eslintrc
+.idea
+.history
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+splinter-tests/tests/geckodriver.log
+
+!lib/
+_back.js
+
+# Python compiled files
+*.pyc

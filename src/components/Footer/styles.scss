@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.site-footer {
+  width: 100%;
+  background: $gray-200;
+
+  .container {
+    background: $gray-200;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}

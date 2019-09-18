@@ -1,0 +1,13 @@
+@baseUrl = https://api.getanewsletter.com/v3
+@jwt = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmlnX2lhdCI6MTUzMzA0MTAxNCwidXNlcl9pZCI6MzY4NjksImV4cCI6MTUzMzY0NTgxNH0.rt44FmUf0fcbK5nq0_iea7gMMr7EW4kEbgUwfAApfoo
+
+
+### Get Reports
+GET {{baseUrl}}/reports/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}
+
+### 
+GET {{baseUrl}}/reports/?page=1&paginate_by=5
+content-type: application/json
+Cookie: jwt={{jwt}}

@@ -1,0 +1,25 @@
+.spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  z-index: 2;
+
+  &::before {
+    content: '';
+    height: 50px;
+    width: 50px;
+    animation: spinner-rotate 0.8s ease infinite;
+    border: 6px solid #3d7ba4;
+    border-right-color: transparent;
+    border-radius: 50%;
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+    position: absolute;
+    transition: left 0.3s ease;
+    box-sizing: border-box;
+  }
+}

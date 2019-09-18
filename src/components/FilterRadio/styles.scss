@@ -1,0 +1,21 @@
+.filter-radio {
+  label {
+    display: block;
+
+    .filter-radio-name {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  }
+
+  input:checked+.filter-radio-name {
+    color: #111;
+    &:before {
+      content: '›';
+      font-size: 1rem;
+      line-height: 1;
+      margin-right: 3px;
+    }
+  }
+}

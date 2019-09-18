@@ -1,0 +1,16 @@
+node_modules
+.vscode
+mock-server
+test-requests
+README.md
+UsefulLinks.md
+Dockerfile
+sleep.sh
+build
+
+# Delete after moving frontend code to a separate directory
+.editorconfig
+api/*
+docs/*
+pyproject.toml
+tasks.py

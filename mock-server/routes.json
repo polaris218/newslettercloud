@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/reports?page=1&paginate_by=5": "/reports_preview",
+  "/reports?page=1&paginate_by=15": "/reports_page1",
+  "/reports?page=2&paginate_by=15": "/reports_page2"
+}

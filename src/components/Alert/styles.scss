@@ -1,0 +1,33 @@
+.alert-enter {
+  opacity: 0.01;
+}
+
+.alert-enter.alert-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.alert-exit {
+  opacity: 1;
+}
+
+.alert-exit.alert-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.alert-container {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+
+  .alert {
+    margin-bottom: 0;
+
+    button:focus,
+    button:active {
+      outline: none !important;
+      box-shadow: none;
+    }
+  }
+}

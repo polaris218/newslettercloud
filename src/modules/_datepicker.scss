@@ -1,0 +1,26 @@
+
+body {
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  .react-datepicker {
+    button.react-datepicker__navigation--next {
+      right: 100px;
+    }
+  
+    &__time-container {
+      width: 90px;
+    
+      .react-datepicker__time {
+        .react-datepicker__time-box {
+          width: 90px;
+        }
+      }
+    }
+  
+    &__input-container {
+      width: 100%;
+    }
+  }
+}
