@@ -1,5 +1,5 @@
 # Get a newsletter
-
+![](images/function.png?raw=true)
 ### Documentation: ###
 
 * [Frontend](docs/frontend.md)
