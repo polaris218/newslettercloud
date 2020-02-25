@@ -1,5 +1,5 @@
 # Get a newsletter
-![](images/function.png?raw=true)
+![](https://github.com/actiongeek/newslettercloud/blob/master/images/funtion.png?raw=true)
 ### Documentation: ###
 
 * [Frontend](docs/frontend.md)
