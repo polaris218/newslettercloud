@@ -1,7 +1,7 @@
 # Project requirements
 
 Celery==4.2.1
-Django==2.1.7
+Django==2.2.13
 django-environ==0.4.5
 djangorestframework==3.9.2
 djangorestframework-jwt==1.11.0
