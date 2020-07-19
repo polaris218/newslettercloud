@@ -14,7 +14,7 @@
     "dotenv": "^6.2.0",
     "history": "^4.7.2",
     "js-cookie": "^2.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "2.23.0",
     "pages_components": "file:./pages_components",
     "path-to-regexp": "^3.0.0",
