@@ -46,7 +46,7 @@
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.3",
     "uuid": "^3.3.2",
-    "xlsx": "^0.14.1"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
