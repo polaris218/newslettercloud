@@ -15,7 +15,7 @@
     "history": "^4.7.2",
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.11",
-    "moment": "2.23.0",
+    "moment": "2.29.2",
     "pages_components": "file:./pages_components",
     "path-to-regexp": "^3.0.0",
     "react": "16.7.0",
